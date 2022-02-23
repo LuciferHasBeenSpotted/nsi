@@ -4,4 +4,4 @@ def match_nul(grid: list):
     Arg: grid [grid] (Array of array of int)
     Out: Are there movements ? (bool)
     '''
-    return True if 0 in grid[len(grid) - 1] else False
+    return False if 0 in grid[len(grid) - 1] else True
